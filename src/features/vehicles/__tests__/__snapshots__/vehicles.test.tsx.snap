@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`vehicles feature component suite > Should match snapshot 1`] = `
+<div>
+  <div
+    class="_container_db862b"
+  >
+    <div
+      class="_mapContainer_db862b"
+    >
+      <div>
+        Vehicles Map - results: 
+        1
+      </div>
+    </div>
+    <div
+      class="_tableContainer_db862b"
+    >
+      <div>
+        Vehicles Table - results: 
+        1
+         - page: 
+        1
+        <button
+          data-testid="change-page-button"
+        >
+          Change Page
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,442 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`vehicles table component suite > Should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="vehicles-feature"
+  >
+    <table
+      class="TableElement-sc-1bryfxb ExnvC _table_d287f6"
+      data-testid="vehicles-table"
+      theme="[object Object]"
+    >
+      <thead
+        aria-label="Vehicles table"
+        data-testid="vehicles-table-head"
+      >
+        <tr
+          class="TableRowElement-sc-1btkiv2 fArpwd"
+          rowstyle="zebra"
+        >
+          <th
+            class="TableHeaderCellElement-sc-xwtum0 ekihTS"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+            scope="col"
+            theme="[object Object]"
+          >
+            Type
+          </th>
+          <th
+            aria-sort="ascending"
+            class="TableHeaderCellElement-sc-xwtum0 ekihTS TableHeaderCellWithPointer-sc-1lvpj6b GrFUG"
+            columnspace="1.5rem"
+            role="columnheader"
+            rowsize="3.5rem"
+            theme="[object Object]"
+          >
+            <div
+              alignitems="center"
+              class="Box-sc-lqdr92 jutYjc"
+              display="inline-flex"
+              theme="[object Object]"
+            >
+              Licence Plate
+              <div
+                class="Box-sc-lqdr92 doNQjV"
+                mr="0.25rem"
+                theme="[object Object]"
+              />
+              <div
+                alignitems="center"
+                class="Box-sc-lqdr92 hwbpHu"
+                display="inline-flex"
+                flexshrink="0"
+                theme="[object Object]"
+              >
+                <svg
+                  color="var(--wave-s-color-foreground-primary)"
+                  fill="none"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  width="20"
+                >
+                  <path
+                    d="M10 15.8334L7.83494 13.3334L5.66987 10.8334L10 10.8334L14.3301 10.8334L12.1651 13.3334L10 15.8334Z"
+                    fill="var(--wave-s-color-foreground-disabled)"
+                  />
+                  <path
+                    d="M10 4.16663L7.83494 6.66663L5.66987 9.16663L10 9.16663L14.3301 9.16663L12.1651 6.66663L10 4.16663Z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </th>
+          <th
+            class="TableHeaderCellElement-sc-xwtum0 ekihTS"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+            scope="col"
+            theme="[object Object]"
+          >
+            Coordinates
+          </th>
+          <th
+            class="TableHeaderCellElement-sc-xwtum0 ekihTS"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+            scope="col"
+            theme="[object Object]"
+          >
+            Address
+          </th>
+          <th
+            class="TableHeaderCellElement-sc-xwtum0 ekihTS"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+            scope="col"
+            theme="[object Object]"
+          >
+            State
+          </th>
+          <th
+            class="TableHeaderCellElement-sc-xwtum0 ekihTS"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+            scope="col"
+            theme="[object Object]"
+          >
+            Condition
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          aria-label="Vehicle ABC123, ACTIVE"
+          aria-selected="false"
+          class="TableRowElement-sc-1btkiv2 fArpwd"
+          data-testid="vehicle-row-1"
+          role="row"
+          rowstyle="zebra"
+          tabindex="0"
+        >
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            FREENOW
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            ABC123
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            53.5511, 9.9937
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            Hamburg, Germany
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            <span
+              aria-label="Vehicle is ACTIVE"
+              class="Text-sc-15p8f5j Label-sc-1tba4rq gVABVC bJOZgj"
+              theme="[object Object]"
+              variant="success"
+            >
+              Active
+            </span>
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            <div
+              style="display: flex; flex-direction: row;"
+            >
+              <svg
+                color="green"
+                fill="none"
+                height="18"
+                viewBox="0 0 24 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 6v13h8V6H8zM6 4h4V2h4v2h4v17H6V4z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M14 12h-4v5h4v-5z"
+                  fill="#069D4F"
+                />
+              </svg>
+              <div>
+                <svg
+                  aria-label="Good Condition"
+                  color="green"
+                  fill="none"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  width="18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 12a8 8 0 10-16 0 8 8 0 0016 0zm2 0c0 5.523-4.477 10-10 10a10 10 0 1110-10zM10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5zm7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5zm-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <tr
+          aria-label="Vehicle XYZ789, INACTIVE"
+          aria-selected="false"
+          class="TableRowElement-sc-1btkiv2 fArpwd"
+          data-testid="vehicle-row-2"
+          role="row"
+          rowstyle="zebra"
+          tabindex="0"
+        >
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            SHARENOW
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            XYZ789
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            53.55, 10
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            Berlin, Germany
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            <span
+              aria-label="Vehicle is INACTIVE"
+              class="Text-sc-15p8f5j Label-sc-1tba4rq gVABVC gJsBJe"
+              theme="[object Object]"
+              variant="danger"
+            >
+              Inactive
+            </span>
+          </td>
+          <td
+            class="TableCellElement-sc-1bh8t6t geBbiK"
+            columnspace="1.5rem"
+            rowsize="3.5rem"
+          >
+            <div
+              style="display: flex; flex-direction: row;"
+            >
+              <svg
+                color="green"
+                fill="none"
+                height="18"
+                viewBox="0 0 24 24"
+                width="18"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 6v13h8V6H8zM6 4h4V2h4v2h4v17H6V4z"
+                  fill="currentColor"
+                />
+                <path
+                  d="M10 9.25h4v7.76h-4V9.25z"
+                  fill="#069D4F"
+                />
+              </svg>
+              <div>
+                <svg
+                  aria-label="Good Condition"
+                  color="green"
+                  fill="none"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  width="18"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 12a8 8 0 10-16 0 8 8 0 0016 0zm2 0c0 5.523-4.477 10-10 10a10 10 0 1110-10zM10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5zm7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5zm-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="_paginationContainer_d287f6"
+      data-testid="vehicles-pagination-container"
+    >
+      <div
+        class="Container-sc-iddg77 cnPuOi"
+      >
+        <div
+          class="Box-sc-lqdr92 ButtonsContainer-sc-1t62qvd cBJiOY dsDbmW"
+          theme="[object Object]"
+        >
+          <div
+            class="Box-sc-lqdr92 iYqSYT"
+            flex="1"
+            theme="[object Object]"
+          />
+          <div
+            class="Box-sc-lqdr92 cBJiOY"
+            theme="[object Object]"
+          >
+            <button
+              aria-label="First"
+              class="IconButton-sc-y33udb iyCddD"
+              disabled=""
+            >
+              <svg
+                color="inherit"
+                fill="none"
+                height="12"
+                viewBox="0 0 24 24"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M8 5H6v14h2V5zm10.898 0l-6.175 7 6.175 7h-2.676L10 12l6.222-7h2.676z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Prev"
+              class="IconButton-sc-y33udb iyCddD"
+              disabled=""
+            >
+              <svg
+                color="inherit"
+                fill="none"
+                height="12"
+                viewBox="0 0 24 24"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M12.898 5l-6.175 7 6.175 7h-2.676L4 12l6.222-7h2.676zm7.5 0l-6.175 7 6.175 7h-2.676L11.5 12l6.222-7h2.676z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Next"
+              class="IconButton-sc-y33udb iyCddD"
+              disabled=""
+            >
+              <svg
+                color="inherit"
+                fill="none"
+                height="12"
+                viewBox="0 0 24 24"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M4 5l6.175 7L4 19h2.676l6.222-7-6.222-7H4zm7.5 0l6.175 7-6.175 7h2.676l6.222-7-6.222-7H11.5z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <button
+              aria-label="Last"
+              class="IconButton-sc-y33udb iyCddD"
+              disabled=""
+            >
+              <svg
+                color="inherit"
+                fill="none"
+                height="12"
+                viewBox="0 0 24 24"
+                width="12"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  clip-rule="evenodd"
+                  d="M16 5h2v14h-2V5zM5 5l6.175 7L5 19h2.676l6.222-7-6.222-7H5z"
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="Box-sc-lqdr92 iYqSYT"
+            flex="1"
+            theme="[object Object]"
+          />
+        </div>
+        <div
+          class="LabelContainer-sc-wdg3l2 cRidaS"
+        >
+          <span
+            class="Text-sc-15p8f5j gVABVC"
+            theme="[object Object]"
+          >
+            Page
+             
+            <b
+              class="Text-sc-15p8f5j jnxwCH"
+              font-weight="semibold"
+              theme="[object Object]"
+            >
+              1
+               of 
+              1
+            </b>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

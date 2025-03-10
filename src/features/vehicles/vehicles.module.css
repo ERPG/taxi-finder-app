@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.mapContainer {
+    flex: 1;
+    height: 392px;
+    width: 569px;
+    padding: 10px;
+}
+
+.tableContainer {
+    flex: 1;
+    height: auto;
+}
+
+@media (max-width: 1200px) {
+    .mapContainer {
+        width: 320px;
+        height: 392px;
+    }
+}
+
+@media (max-width: 993px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .mapContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .mapContainer {
+        width: 100%;
+        height: 60vh;
+    }
+}
