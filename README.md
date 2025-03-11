@@ -45,6 +45,6 @@ npm test
 
 ## 📌 Tech Stack
 
-•	Frontend: React, Vite, React Query, React Leaflet, TypeScript
-•	Backend: Node.js, Express, JSON data storage
-•	Testing: Vitest, React Testing Library
+- Frontend: React, Vite, React Query, React Leaflet, TypeScript
+- Backend: Node.js, Express, JSON data storage
+- Testing: Vitest, React Testing Library
